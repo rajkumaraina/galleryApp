@@ -1,0 +1,30 @@
+.mainContainer {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.insideContainer {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+}
+.mainImage {
+  border-radius: 8px;
+  width: 650px;
+  height: 380px;
+  text-align: center;
+}
+.heading {
+  font-size: 20px;
+  color: #1e293b;
+}
+.para {
+  color: #64748b;
+  font-size: 13px;
+}
+.unorderedItems {
+  display: flex;
+}

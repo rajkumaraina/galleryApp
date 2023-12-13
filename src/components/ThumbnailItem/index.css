@@ -1,0 +1,18 @@
+.button {
+  border-radius: 8px;
+  height: 55px;
+  width: 55px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 15px;
+  border: 0px none;
+  background-color: transparent;
+}
+.listItems {
+  list-style-type: none;
+}
+.smallImages {
+  border-radius: 8px;
+  height: 55px;
+  width: 55px;
+}
