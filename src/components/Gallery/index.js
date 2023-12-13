@@ -100,6 +100,7 @@ class Gallery extends Component {
                 item={eachItem}
                 key={eachItem.id}
                 imageChange={this.imageChange}
+                isActive={eachItem.id === imageId}
               />
             ))}
           </ul>
