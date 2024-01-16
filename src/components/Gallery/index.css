@@ -3,6 +3,7 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .insideContainer {
   box-shadow: 0px 4px 16px 0px #bfbfbf;
@@ -17,6 +18,9 @@
   height: 380px;
   text-align: center;
 }
+.unorderedItems {
+  padding: 0;
+}
 .heading {
   font-size: 20px;
   color: #1e293b;
@@ -27,4 +31,28 @@
 }
 .unorderedItems {
   display: flex;
+}
+@media (max-width: 576px) {
+  .insideContainer {
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainContainer {
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+  .unorderedItems {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .mainImage {
+    margin-top: 50px;
+    width: 100%;
+  }
 }
